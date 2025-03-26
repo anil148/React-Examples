@@ -22,6 +22,7 @@ import UseEffectEx_DigitalClock from './UseEffectEx_DigitalClock.jsx'
 import UseContextEx from './UseContextEx.jsx'
 import PropDrllingA from './PropDrllingA.jsx'; 
 import UseRefEx from './UseRefEx.jsx'; 
+import UseRef_StopWatch from './UseRef_StopWatch.jsx'; 
 function App(){
   var fruits = [{id:1,name:"apple",calories:"apple"},
     {id:2,name:"banana",calories:125},
@@ -63,9 +64,9 @@ function App(){
 <UseEffectEx_DigitalClock/> 
  <UseContextEx/> 
  <PropDrllingA/>
- */}
-<UseRefEx/>
 
+<UseRefEx/> */}
+<UseRef_StopWatch/>
 <Footer/>
 </>
   );
